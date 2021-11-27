@@ -3,12 +3,14 @@
 }
 .menu_a a{
     text-decoration: none;
-    font-size: 20px;
-    color: white;
-    margin-right: 50px;
+    font-size: 25px;
+    color: red;
+    margin-right: 40px;
     margin-left: 20px;
 }
 .menu{
+    background-color: white;
+    border-radius: 0 0 50px 50px;
     margin-bottom: 10px;
 }
 .menu_a img{
@@ -100,7 +102,6 @@ span{
 }
 .bigdiv{
     text-align: center;
-    background-color: violet;
 }
 .text img{
     margin: auto;
@@ -113,6 +114,9 @@ span{
     .bigdiv .text p{
         font-size: 10px;
     }
+}
+.bigdiv .text p{
+  color: white;
 }
 input{
     max-height: 100%;
@@ -149,7 +153,11 @@ h3{
     max-height: 600px;
 }
 .contact{
+    background-color: red;
+    border-radius: 100px 100px 0 0;
     margin-top: 30px;
+    padding-top: 50px ;
+    height: 100px;
 }
 .small{
     text-align: center;
